@@ -1,13 +1,24 @@
-# Meu Financeiro
+# VigiaSUS
 
-Aplica��o de controle financeiro pessoal.
+Plataforma de dados epidemiológicos para ingestão, tratamento, análise e visualização de dados públicos de saúde no Brasil.
+
+## Objetivo
+
+Desenvolver um pipeline de dados com Python e SQL para analisar indicadores epidemiológicos, começando pelos dados de dengue.
 
 ## Tecnologias
+
 - Python
-- HTML, CSS e JavaScript
-- FastAPI
-- SQLite
+- Pandas
+- Requests
+- SQL
+- PostgreSQL
+- Pytest
 - Git e GitHub
 
-## Status
-Em desenvolvimento.
+## Estrutura inicial
+
+- `data/raw/`: dados originais.
+- `data/processed/`: dados tratados.
+- `src/vigiasus/`: código-fonte.
+- `tests/`: testes automatizados.
