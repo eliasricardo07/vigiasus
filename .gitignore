@@ -17,3 +17,4 @@ __pycache__/
 # Dados locais
 data/raw/*
 data/processed/*
+*.egg-info/
